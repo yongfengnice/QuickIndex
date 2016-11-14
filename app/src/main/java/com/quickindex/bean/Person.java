@@ -6,7 +6,11 @@ import com.github.stuxuhai.jpinyin.PinyinException;
 import com.github.stuxuhai.jpinyin.PinyinFormat;
 import com.github.stuxuhai.jpinyin.PinyinHelper;
 import com.quickindex.utils.BarUtils;
-
+/**
+ * Creator: syf(2499522170@qq.com)
+ * Date   : on 2016/11/14 0014
+ * Desc   : 实体类
+ */
 public class Person implements Comparable<Person> {
 
     private String mName;

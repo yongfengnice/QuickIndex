@@ -15,7 +15,11 @@ import com.quickindex.view.IndexBar;
 
 import java.util.ArrayList;
 import java.util.Collections;
-
+/**
+ * Creator: syf(2499522170@qq.com)
+ * Date   : on 2016/11/14 0014
+ * Desc   : MainActivity
+ */
 public class MainActivity extends AppCompatActivity {
 
     private ListView mListView;
