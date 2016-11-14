@@ -3,7 +3,11 @@
 一帧的效果图如下所示：
 
 手机上的效果：
+
 ![](http://i.imgur.com/pbuLWhq.png)
 
+
+<br/>
 pad上的效果：
+
 ![](http://i.imgur.com/5OvCyAh.png)
