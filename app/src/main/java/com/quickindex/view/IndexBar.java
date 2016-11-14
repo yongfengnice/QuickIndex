@@ -62,7 +62,7 @@ public class IndexBar extends View {
             int x = (int) (mCellWidth / 2.0f - bounds.width() / 2.0f);
             int y = (int) (mCellHeight / 2.0f + bounds.height() / 2.0f + i * mCellHeight);
             mPaint.setColor(i == mCurIndex ? Color.GRAY : Color.BLACK);
-            canvas.drawText(text, x,  y, mPaint);
+            canvas.drawText(text, x, y, mPaint);
         }
     }
 
@@ -83,7 +83,9 @@ public class IndexBar extends View {
             case MotionEvent.ACTION_UP:
                 mCurIndex = -1;
                 mPreIndex = -1;
-                mListener.onLetterNone();
+                if (mListener != null) {
+                    mListener.onLetterNone();
+                }
                 break;
             default:
                 break;
