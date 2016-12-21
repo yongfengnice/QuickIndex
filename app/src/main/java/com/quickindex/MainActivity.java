@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
                 }
                 for (int i = 0; i < mPersonList.size(); i++) {
                     String index = String.valueOf(mPersonList.get(i).getPinyin().charAt(0));
-                    if (BarUtils.sLastChar.equals(letter) && TextUtils.equals(BarUtils.sChar_z, index) || TextUtils.equals(letter, index)) {
+                    if (TextUtils.equals(BarUtils.sLastChar, letter) && TextUtils.equals(BarUtils.sChar_z, index) || TextUtils.equals(letter, index)) {
                         mListView.setSelection(i + mListView.getHeaderViewsCount());
                         break;
                     }
